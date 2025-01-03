@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('/fruit/bgFin.png');
+    background-size: cover;
+   
+}
+.fruit{
+   position: absolute;
+}
+.logo{
+
+    display: block;
+    margin: 0 auto; 
+    height: 120px;
+    top: 0;
+
+    
+}
+
+.score{
+    font-family: "Fruit Ninja (Simplified)"; 
+     background: linear-gradient(to right, #be8408, #d6b10b); /* Define your gradient */
+      -webkit-background-clip: text; /* Clip background to the text */
+     -webkit-text-fill-color: transparent; 
+     font-size: 45px;
+}
+
+@import url(https://db.onlinewebfonts.com/c/bf63971653bf20487a1904a0d4afd074?family=Fruit+Ninja+%28Simplified%29);
